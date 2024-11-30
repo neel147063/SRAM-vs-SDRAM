@@ -1,0 +1,25 @@
+Qflow DRC logfile created on Sat Nov 30 10:32:18 AM IST 2024
+magic -dnull -noconsole  /home/neel/ram2/layout/run_drc_ram32_sram.tcl
+
+Magic 8.3 revision 50 - Compiled on Fri Nov 22 08:04:04 PM IST 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "/home/neel/ram2/layout/run_drc_ram32_sram.tcl" from command line.
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 2941 lines.
+ram32_sram: 10000 rects
+Processing timestamp mismatches: FILL, NAND2X1, OAI21X1, INVX8, DFFPOSX1, BUFX2, NOR2X1, AOI21X1, CLKBUF1, BUFX4, MUX2X1, AOI22X1, INVX4, INVX2, OR2X2, INVX1, AND2X2.
+drc = 0
+DRC checking script ended on Sat Nov 30 10:32:19 AM IST 2024

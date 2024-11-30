@@ -1,0 +1,11 @@
+Qflow project preparation output log Sat Nov 30 10:31:21 2024
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to osu018
+
+No actions specified on command line;
+creating qflow script file /home/neel/ram2/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.

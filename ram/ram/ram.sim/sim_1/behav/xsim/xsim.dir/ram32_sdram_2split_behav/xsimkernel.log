@@ -1,0 +1,7 @@
+Running: xsim.dir/ram32_sdram_2split_behav/xsimk.exe -simmode gui -wdb ram32_sdram_2split_behav.wdb -simrunnum 0 -socket 51699
+Design successfully loaded
+Design Loading Memory Usage: 10040 KB (Peak: 10040 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 10836 KB (Peak: 10836 KB)
+Simulation CPU Usage: 233 ms
