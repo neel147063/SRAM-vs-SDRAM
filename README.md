@@ -51,7 +51,7 @@ This project implements a **32-byte SRAM (Static Random-Access Memory)** using V
 
 ---
 
-# 📝 32-Byte SDRAM Module with Split Addressing in Verilog
+# 📝 32-Byte SDRAM Module with 2-Split Addressing in Verilog
 
 This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Memory)** using Verilog. The module uses a **2-split addressing scheme** (row and column) to access memory, simulating typical SDRAM behavior. Below, you'll find a detailed explanation, placeholders for visuals, and example usage information.
 
