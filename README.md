@@ -50,3 +50,66 @@ This project implements a **32-byte SRAM (Static Random-Access Memory)** using V
    - Use this module as a basic SRAM in larger digital designs like processors or controllers.
 
 ---
+
+# 📝 32-Byte SDRAM Module with Split Addressing in Verilog
+
+This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Memory)** using Verilog. The module uses a **2-split addressing scheme** (row and column) to access memory, simulating typical SDRAM behavior. Below, you'll find a detailed explanation, placeholders for visuals, and example usage information.
+
+---
+
+## 🚀 Features
+- **Memory Size**: 32 bytes, organized as 8 rows and 4 columns, each storing 8-bit data.
+- **Addressing Scheme**:
+  - **Row Address**: 3 bits (address[4:2]).
+  - **Column Address**: 2 bits (address[1:0]).
+- **Control Signals**:
+  - `en`: Activates memory operations.
+  - `rw`: Determines the operation mode:
+    - `0`: Read operation.
+    - `1`: Write operation.
+  - `ras`: Row Address Strobe (selects the row).
+  - `cas`: Column Address Strobe (selects the column).
+- **Clock-Driven**: All operations are synchronized with the rising edge of the clock (`clk`).
+
+---
+
+## 📜 Code Explanation
+
+### Input and Output Ports:
+- **Inputs**:
+  - `en` (1-bit): Enables read or write operations.
+  - `rw` (1-bit): Selects between read (`0`) and write (`1`).
+  - `clk` (1-bit): Synchronizes memory operations.
+  - `ras` (1-bit): Latches the row address.
+  - `cas` (1-bit): Latches the column address.
+  - `datain` (8-bit): Input data for write operations.
+  - `address` (5-bit): Specifies the memory location split into row and column.
+- **Output**:
+  - `dataout` (8-bit): Outputs the data stored at the selected row and column during read operations.
+
+---
+
+## 🖼️ Block Diagram
+**[Placeholder for Block Diagram]**  
+👉 *Add a diagram illustrating the row-column addressing scheme, inputs, outputs, and memory array.*
+
+---
+
+## 📊 Example Output
+**[Placeholder for Output Simulation]**  
+👉 *Include waveform screenshots demonstrating row and column address strobes, read and write operations.*
+
+---
+
+## 🛠️ How to Use
+1. **Simulate the Module**:
+   - Provide test inputs for `clk`, `en`, `rw`, `ras`, `cas`, `datain`, and `address`.
+   - Observe the `dataout` for read operations.
+2. **Address Decoding**:
+   - **Row Selection**: Address bits [4:2] determine the row (`ras` signal latches the value).
+   - **Column Selection**: Address bits [1:0] determine the column (`cas` signal latches the value).
+3. **Integration**:
+   - Use this module in larger memory systems or as part of an SDRAM simulation.
+
+---
+
