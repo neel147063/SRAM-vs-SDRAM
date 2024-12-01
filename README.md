@@ -90,7 +90,7 @@ This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Mem
 ---
 
 ### 🖼️ Block Diagram
-**[Placeholder for Block Diagram]**  
+**![Pi7_Gif (1)](https://github.com/user-attachments/assets/a574e964-69d0-4f87-9a6d-8e81af6a5994)**  
 👉 *Add a diagram illustrating the row-column addressing scheme, inputs, outputs, and memory array.*
 
 ---
@@ -155,7 +155,7 @@ This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Mem
 ---
 
 ### 🖼️ Block Diagram
-**[Placeholder for Block Diagram]**  
+**![Pi7_Gif (2)](https://github.com/user-attachments/assets/5669d4f6-8631-4fe0-a5e3-a5eddcd86d00)**  
 👉 *Add a diagram illustrating the vertical-row-column addressing scheme, inputs, outputs, and memory structure.*
 
 ---
