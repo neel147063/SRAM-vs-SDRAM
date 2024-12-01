@@ -1,4 +1,4 @@
-![Screenshot 2024-11-30 175656](https://github.com/user-attachments/assets/47d50de1-495d-4314-b020-bbe14a3af406)# 📝 32-Byte SRAM Module in Verilog
+# 📝 32-Byte SRAM Module in Verilog
 
 This project implements a **32-byte SRAM (Static Random-Access Memory)** using Verilog. It features separate `read` and `write` operations, controlled by an `enable` signal and a `read/write` selector. Below, you’ll find a detailed explanation, placeholders for visuals, and example usage information.
 
