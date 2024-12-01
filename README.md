@@ -179,3 +179,49 @@ This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Mem
 
 ---
 
+### 📊 Comparison Table for `ram32_sram`, `ram32_sdram_2split`, and `ram32_sdram_3split`
+
+| **Parameter**                     | **ram32_sram** | **ram32_sdram_2split** | **ram32_sdram_3split** |
+|------------------------------------|----------------|-------------------------|-------------------------|
+| **Number of Wires**               | 361            | 367                     | 374                     |
+| **Number of Wire Bits**           | 610            | 619                     | 625                     |
+| **Number of Public Wires**        | 38             | 42                      | 44                      |
+| **Number of Public Wire Bits**    | 280            | 287                     | 288                     |
+| **Number of Memories**            | 0              | 0                       | 0                       |
+| **Number of Memory Bits**         | 0              | 0                       | 0                       |
+| **Number of Processes**           | 0              | 0                       | 0                       |
+| **Number of Cells**               | 594            | 601                     | 606                     |
+| **Cell Types**                    |                |                         |                         |
+| - `$_ANDNOT_`                     | 32             | 32                      | 32                      |
+| - `$_AND_`                        | 1              | 2                       | 4                       |
+| - `$_DFFE_PP_`                    | 256            | 256                     | 256                     |
+| - `$_DFFE_PN_`                    | 0              | 5                       | 5                       |
+| - `$_MUX_`                        | 248            | 248                     | 248                     |
+| - `$_NAND_`                       | 2              | 3                       | 3                       |
+| - `$_NOR_`                        | 0              | 1                       | 1                       |
+| - `$_NOT_`                        | 1              | 1                       | 1                       |
+| - `$_ORNOT_`                      | 4              | 4                       | 2                       |
+| - `$_OR_`                         | 42             | 41                      | 44                      |
+| - `$_SDFFE_PN0N_`                 | 8              | 8                       | 8                       |
+| - `$_XNOR_`                       | 0              | 0                       | 1                       |
+| - `$_XOR_`                        | 0              | 0                       | 1                       |
+| **Maximum Clock Frequency**       | **1095.72 MHz**| **393.145 MHz**         | **393.145 MHz**         |
+
+---
+
+### 📝 Key Insights:
+1. **Wire Complexity**:
+   - `ram32_sram` uses fewer wires and wire bits compared to the split addressing SDRAM implementations.
+   - As the addressing scheme becomes more complex (`2split` → `3split`), wire counts slightly increase.
+
+2. **Cell Counts**:
+   - Cell usage increases from `ram32_sram` to `ram32_sdram_3split` due to additional logic required for vertical addressing.
+
+3. **Performance**:
+   - `ram32_sram` has a higher maximum clock frequency (~1095.72 MHz) compared to SDRAM implementations (~393.145 MHz), likely due to simpler logic and addressing mechanisms.
+
+4. **Address Decoding**:
+   - `ram32_sdram_3split` includes additional cells like `$_XNOR_` and `$_XOR_`, reflecting the increased complexity of 3-split addressing.
+
+---
+
