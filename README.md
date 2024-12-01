@@ -1,4 +1,4 @@
-# 📝 32-Byte SRAM Module in Verilog
+![Screenshot 2024-11-30 175656](https://github.com/user-attachments/assets/47d50de1-495d-4314-b020-bbe14a3af406)# 📝 32-Byte SRAM Module in Verilog
 
 This project implements a **32-byte SRAM (Static Random-Access Memory)** using Verilog. It features separate `read` and `write` operations, controlled by an `enable` signal and a `read/write` selector. Below, you’ll find a detailed explanation, placeholders for visuals, and example usage information.
 
@@ -31,13 +31,13 @@ This project implements a **32-byte SRAM (Static Random-Access Memory)** using V
 ---
 
 ### 🖼️ Block Diagram
-**[Placeholder for Block Diagram]**  
+**![Screenshot 2024-11-30 174950](https://github.com/user-attachments/assets/b4c79b64-4b49-49fd-a8f9-3b36bd508b61)**  
 👉 *Add a diagram illustrating the inputs, outputs, memory array, and control flow.*
 
 ---
 
 ### 📊 Example Output
-**[Placeholder for Output Simulation]**  
+**![Screenshot 2024-11-30 174721](https://github.com/user-attachments/assets/3634f0ae-ccd0-47ac-ad05-fea42a0b8aad)**  
 👉 *Include waveform screenshots showing write and read operations.*
 
 ---
@@ -96,7 +96,7 @@ This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Mem
 ---
 
 ### 📊 Example Output
-**[Placeholder for Output Simulation]**  
+**![Screenshot 2024-11-30 175656](https://github.com/user-attachments/assets/7fa46e50-7c5e-4cda-a8b0-797347ec44b1)**  
 👉 *Include waveform screenshots demonstrating row and column address strobes, read and write operations.*
 
 ---
@@ -161,7 +161,7 @@ This project implements a **32-byte SDRAM (Synchronous Dynamic Random-Access Mem
 ---
 
 ### 📊 Example Output
-**[Placeholder for Output Simulation]**  
+**![Screenshot 2024-11-30 182242](https://github.com/user-attachments/assets/f7ec0dc8-c097-4a84-be3a-1bcb5ef3ca85)**  
 👉 *Include waveform screenshots demonstrating vertical, row, and column address strobes, read, and write operations.*
 
 ---
